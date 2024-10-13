@@ -261,7 +261,7 @@ jobs:
       id: collect-gha-metrics
       if: always()
       name: Collect Metrics
-      uses: smartcontractkit/push-gha-metrics-action@v2.2.0
+      uses: smartcontractkit/push-gha-metrics-action@v3.0.1
       with:
         basic-auth: ${{ secrets.GRAFANA_CLOUGRAFANA_INTERNAL_BASIC_AUTHD_BASIC_AUTH
           }}
