@@ -513,7 +513,7 @@ jobs:
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
       name: ci-sonarqube
-      uses: smartcontractkit/.github/actions/ci-sonarqube-go@3e11dbc45e4c8b18dd996fb417ccf22056176388
+      uses: smartcontractkit/.github/actions/ci-sonarqube-go@5b1046c28343660ecb84844c6fa95a66d1cdb52e
       with:
         gc-basic-auth: ${{ secrets.GRAFANA_INTERNAL_BASIC_AUTH }}
         gc-host: ${{ secrets.GRAFANA_INTERNAL_HOST }}
