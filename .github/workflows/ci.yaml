@@ -826,7 +826,7 @@ jobs:
 
         '
     - continue-on-error: true
-      uses: geekyeggo/delete-artifact@54ab544f12cdb7b71613a16a2b5a37a9ade990af
+      uses: geekyeggo/delete-artifact@f275313e70c08f6120db482d7a6b98377786765b
       with:
         failOnError: false
         name: docker.tar.gz
@@ -1392,7 +1392,7 @@ jobs:
 
         '
     - continue-on-error: true
-      uses: geekyeggo/delete-artifact@54ab544f12cdb7b71613a16a2b5a37a9ade990af
+      uses: geekyeggo/delete-artifact@f275313e70c08f6120db482d7a6b98377786765b
       with:
         failOnError: false
         name: docker.tar.gz
