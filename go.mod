@@ -9,7 +9,7 @@ require (
 	github.com/OpenPeeDeeP/depguard v1.0.1
 	github.com/alexkohler/prealloc v1.0.0
 	github.com/ashanbrown/forbidigo v1.2.0
-	github.com/ashanbrown/makezero v0.0.0-20210520155254-b6261585ddde
+	github.com/ashanbrown/makezero v1.1.1
 	github.com/bkielbasa/cyclop v1.2.0
 	github.com/bombsimon/wsl/v3 v3.3.0
 	github.com/charithe/durationcheck v0.0.8
@@ -83,7 +83,7 @@ require (
 	github.com/uudashr/gocognit v1.0.5
 	github.com/valyala/quicktemplate v1.6.3
 	github.com/yeya24/promlinter v0.1.0
-	golang.org/x/tools v0.1.5
+	golang.org/x/tools v0.1.9
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	honnef.co/go/tools v0.2.0
 	mvdan.cc/gofumpt v0.1.1
