@@ -255,7 +255,7 @@ jobs:
     - continue-on-error: true
       id: python
       name: Set up Python ${{ env.DEFAULT_PYTHON }}
-      uses: actions/setup-python@v4.7.0
+      uses: actions/setup-python@v5.2.0
       with:
         check-latest: true
         python-version: ${{ env.DEFAULT_PYTHON }}
