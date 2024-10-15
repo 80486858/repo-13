@@ -7,7 +7,7 @@ require (
 	github.com/DataDog/datadog-agent/pkg/util/optional v0.55.2
 	github.com/Masterminds/semver v1.5.0
 	github.com/alessio/shellescape v1.4.2
-	github.com/aws/aws-sdk-go-v2 v1.32.0
+	github.com/aws/aws-sdk-go-v2 v1.32.2
 	github.com/aws/aws-sdk-go-v2/config v1.27.40
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.32.4
 	github.com/aws/aws-sdk-go-v2/service/ecs v1.45.2
