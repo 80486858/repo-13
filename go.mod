@@ -11,7 +11,7 @@ require (
 	github.com/ashanbrown/forbidigo v1.2.0
 	github.com/ashanbrown/makezero v0.0.0-20210520155254-b6261585ddde
 	github.com/bkielbasa/cyclop v1.2.0
-	github.com/bombsimon/wsl/v3 v3.3.0
+	github.com/bombsimon/wsl/v3 v3.4.0
 	github.com/charithe/durationcheck v0.0.8
 	github.com/daixiang0/gci v0.2.9
 	github.com/denis-tingajkin/go-header v0.4.2
@@ -72,7 +72,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.8.1
 	github.com/ssgreg/nlreturn/v2 v2.1.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/tdakkota/asciicheck v0.0.0-20200416200610-e657995f937b
 	github.com/tetafro/godot v1.4.8
 	github.com/timakin/bodyclose v0.0.0-20200424151742-cb6215831a94
@@ -84,7 +84,7 @@ require (
 	github.com/valyala/quicktemplate v1.6.3
 	github.com/yeya24/promlinter v0.1.0
 	golang.org/x/tools v0.1.5
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/yaml.v3 v3.0.1
 	honnef.co/go/tools v0.2.0
 	mvdan.cc/gofumpt v0.1.1
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed
