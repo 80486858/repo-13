@@ -246,7 +246,7 @@ jobs:
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
       if: join(github.event.issue.labels) == ''
-      uses: github/issue-labeler@v3.3
+      uses: github/issue-labeler@v3.4
       with:
         configuration-path: .github/issue_labeler.yml
         enable-versioned-regex: 0
