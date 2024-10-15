@@ -267,7 +267,7 @@ jobs:
     - continue-on-error: true
       id: cache-venv
       name: Restore Python virtual environment
-      uses: actions/cache@v3.3.1
+      uses: actions/cache@v4.1.1
       with:
         fail-on-cache-miss: true
         key: ${{ runner.os }}-${{ steps.python.outputs.python-version }}-${{ needs.prepare-base.outputs.python-key
@@ -555,7 +555,7 @@ jobs:
     - continue-on-error: true
       id: cache-venv
       name: Restore Python virtual environment
-      uses: actions/cache@v3.3.1
+      uses: actions/cache@v4.1.1
       with:
         key: ${{ runner.os }}-${{ steps.python.outputs.python-version }}-${{ steps.generate-python-key.outputs.key
           }}
@@ -584,7 +584,7 @@ jobs:
     - continue-on-error: true
       id: cache-precommit
       name: Restore pre-commit environment
-      uses: actions/cache@v3.3.1
+      uses: actions/cache@v4.1.1
       with:
         key: ${{ runner.os }}-${{ steps.generate-pre-commit-key.outputs.key }}
         path: ${{ env.PRE_COMMIT_CACHE }}
@@ -857,7 +857,7 @@ jobs:
     - continue-on-error: true
       id: cache-venv
       name: Restore Python virtual environment
-      uses: actions/cache@v3.3.1
+      uses: actions/cache@v4.1.1
       with:
         fail-on-cache-miss: true
         key: ${{ runner.os }}-${{ steps.python.outputs.python-version }}-${{ needs.prepare-base.outputs.python-key
@@ -866,7 +866,7 @@ jobs:
     - continue-on-error: true
       id: cache-precommit
       name: Restore pre-commit environment
-      uses: actions/cache@v3.3.1
+      uses: actions/cache@v4.1.1
       with:
         fail-on-cache-miss: true
         key: ${{ runner.os }}-${{ needs.prepare-base.outputs.pre-commit-key }}
@@ -1150,7 +1150,7 @@ jobs:
     - continue-on-error: true
       id: cache-venv
       name: Restore Python virtual environment
-      uses: actions/cache@v3.3.1
+      uses: actions/cache@v4.1.1
       with:
         fail-on-cache-miss: true
         key: ${{ runner.os }}-${{ steps.python.outputs.python-version }}-${{ needs.prepare-base.outputs.python-key
