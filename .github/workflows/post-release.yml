@@ -273,7 +273,7 @@ jobs:
       run: make update_netlify_state
     - continue-on-error: true
       name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
+      uses: peter-evans/create-pull-request@v7
       with:
         base: master
         branch-suffix: timestamp
