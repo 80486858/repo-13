@@ -248,7 +248,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/stale@v8
+      uses: actions/stale@v9
       with:
         any-of-issue-labels: "Waiting on author,Cannot reproduce \U0001F937,python\
           \ past end of life,Won't fix/not planned"
