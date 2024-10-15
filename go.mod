@@ -55,7 +55,7 @@ require (
 	github.com/moricho/tparallel v0.2.1
 	github.com/nakabonne/nestif v0.3.0
 	github.com/nishanths/exhaustive v0.2.3
-	github.com/nishanths/predeclared v0.2.1
+	github.com/nishanths/predeclared v0.2.2
 	github.com/pkg/errors v0.9.1
 	github.com/polyfloyd/go-errorlint v0.0.0-20210510181950-ab96adb96fea
 	github.com/prometheus/procfs v0.6.0 // indirect
@@ -83,7 +83,7 @@ require (
 	github.com/uudashr/gocognit v1.0.5
 	github.com/valyala/quicktemplate v1.6.3
 	github.com/yeya24/promlinter v0.1.0
-	golang.org/x/tools v0.1.5
+	golang.org/x/tools v0.1.10
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	honnef.co/go/tools v0.2.0
 	mvdan.cc/gofumpt v0.1.1
