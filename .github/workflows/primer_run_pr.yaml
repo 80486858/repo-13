@@ -388,14 +388,14 @@ jobs:
         '
     - continue-on-error: true
       name: Upload output of PR
-      uses: actions/upload-artifact@v3.1.2
+      uses: actions/upload-artifact@v4.4.3
       with:
         name: primer_output_pr
         path: tests/.pylint_primer_tests/output_${{ steps.python.outputs.python-version
           }}_pr_batch${{ matrix.batchIdx }}.txt
     - continue-on-error: true
       name: Upload output of 'main'
-      uses: actions/upload-artifact@v3.1.2
+      uses: actions/upload-artifact@v4.4.3
       with:
         name: primer_output_main
         path: output_${{ steps.python.outputs.python-version }}_main_batch${{ matrix.batchIdx
@@ -407,7 +407,7 @@ jobs:
         '
     - continue-on-error: true
       name: Upload PR number
-      uses: actions/upload-artifact@v3.1.2
+      uses: actions/upload-artifact@v4.4.3
       with:
         name: pr_number
         path: pr_number.txt
