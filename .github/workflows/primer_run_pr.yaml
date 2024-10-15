@@ -287,7 +287,7 @@ jobs:
     - continue-on-error: true
       id: download-main-run
       name: Download last 'main' run info
-      uses: actions/github-script@v6.4.1
+      uses: actions/github-script@v7.0.1
       with:
         script: "// Download 'main' pylint output\nconst fs = require('fs');\nconst\
           \ runs = await github.rest.actions.listWorkflowRuns({\n  owner: context.repo.owner,\n\
