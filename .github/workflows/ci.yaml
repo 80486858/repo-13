@@ -1649,7 +1649,7 @@ jobs:
         ref: ${{ github.event.inputs.git-ref }}
     - continue-on-error: true
       name: Run Gosec Security Scanner
-      uses: securego/gosec@1af1d5bb49259b62e45c505db397dd2ada5d74f8
+      uses: securego/gosec@d4617f51baf75f4f809066386a4f9d27b3ac3e46
       with:
         args: -exclude=G109,G601,G104,G204,G304,G306,G307 -tests=false -exclude-dir=test
           -exclude-dir=images/  -exclude-dir=docs/ ./...
