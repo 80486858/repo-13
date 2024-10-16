@@ -272,7 +272,7 @@ jobs:
         java-version: 11
     - continue-on-error: true
       name: Setup gradle
-      uses: gradle/gradle-build-action@v2
+      uses: gradle/gradle-build-action@v3
     - continue-on-error: true
       id: properties
       name: Export Properties
@@ -841,7 +841,7 @@ jobs:
         java-version: 11
     - continue-on-error: true
       name: Setup Gradle
-      uses: gradle/gradle-build-action@v2
+      uses: gradle/gradle-build-action@v3
     - continue-on-error: true
       name: Run Tests
       run: ./gradlew check
@@ -1113,7 +1113,7 @@ jobs:
         java-version: 11
     - continue-on-error: true
       name: Setup Gradle
-      uses: gradle/gradle-build-action@v2
+      uses: gradle/gradle-build-action@v3
     - continue-on-error: true
       name: Setup Plugin Verifier IDEs Cache
       uses: actions/cache@v3
