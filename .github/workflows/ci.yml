@@ -248,7 +248,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: prometheus/promci@3cb0c3871f223bd5ce1226995bd52ffb314798b6
+      uses: prometheus/promci@468927c440349ab56c4a1aafd453b312841503c2
     - continue-on-error: true
       uses: ./.github/promci/actions/build
       with:
@@ -512,7 +512,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: prometheus/promci@3cb0c3871f223bd5ce1226995bd52ffb314798b6
+      uses: prometheus/promci@468927c440349ab56c4a1aafd453b312841503c2
     - continue-on-error: true
       uses: ./.github/promci/actions/build
       with:
@@ -1058,7 +1058,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: prometheus/promci@3cb0c3871f223bd5ce1226995bd52ffb314798b6
+      uses: prometheus/promci@468927c440349ab56c4a1aafd453b312841503c2
     - continue-on-error: true
       uses: ./.github/promci/actions/publish_main
       with:
@@ -1325,7 +1325,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: prometheus/promci@3cb0c3871f223bd5ce1226995bd52ffb314798b6
+      uses: prometheus/promci@468927c440349ab56c4a1aafd453b312841503c2
     - continue-on-error: true
       uses: ./.github/promci/actions/publish_release
       with:
@@ -1588,7 +1588,7 @@ jobs:
       name: Checkout
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: prometheus/promci@3cb0c3871f223bd5ce1226995bd52ffb314798b6
+      uses: prometheus/promci@468927c440349ab56c4a1aafd453b312841503c2
     - continue-on-error: true
       name: Install nodejs
       uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8
@@ -1874,7 +1874,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: prometheus/promci@3cb0c3871f223bd5ce1226995bd52ffb314798b6
+      uses: prometheus/promci@468927c440349ab56c4a1aafd453b312841503c2
     - continue-on-error: true
       uses: ./.github/promci/actions/setup_environment
     - continue-on-error: true
@@ -2135,7 +2135,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: prometheus/promci@3cb0c3871f223bd5ce1226995bd52ffb314798b6
+      uses: prometheus/promci@468927c440349ab56c4a1aafd453b312841503c2
     - continue-on-error: true
       uses: ./.github/promci/actions/setup_environment
     - continue-on-error: true
@@ -2914,7 +2914,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
-      uses: prometheus/promci@3cb0c3871f223bd5ce1226995bd52ffb314798b6
+      uses: prometheus/promci@468927c440349ab56c4a1aafd453b312841503c2
     - continue-on-error: true
       uses: ./.github/promci/actions/setup_environment
       with:
