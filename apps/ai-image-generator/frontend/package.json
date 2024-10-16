@@ -13,7 +13,7 @@
     "@storybook/addon-a11y": "^7.3.0",
     "contentful-management": "10.38.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "16.14.0",
     "react-scripts": "5.0.1",
     "storybook-addon-designs": "^6.3.1"
   },

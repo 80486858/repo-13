@@ -15,7 +15,7 @@
     "@contentful/app-sdk": "4.21.1",
     "@contentful/ecommerce-app-base": "3.1.67",
     "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react-dom": "16.14.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {

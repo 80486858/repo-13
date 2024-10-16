@@ -21,7 +21,7 @@
     "prop-types": "15.8.1",
     "pubnub": "7.6.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react-dom": "16.14.0",
     "react-scripts": "5.0.1",
     "setimmediate": "^1.0.5",
     "uuid": "8.3.2",
