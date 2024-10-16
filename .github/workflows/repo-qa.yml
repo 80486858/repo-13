@@ -250,7 +250,7 @@ jobs:
     - continue-on-error: true
       id: check_files
       name: Check file existence
-      uses: andstor/file-existence-action@v1
+      uses: andstor/file-existence-action@v3
       with:
         files: README.md, CHANGELOG.md, openapi.json
     - name: after
