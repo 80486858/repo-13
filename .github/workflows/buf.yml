@@ -256,7 +256,7 @@ jobs:
       with:
         input: prompb
     - continue-on-error: true
-      uses: bufbuild/buf-breaking-action@f47418c81c00bfd65394628385593542f64db477
+      uses: bufbuild/buf-breaking-action@c57b3d842a5c3f3b454756ef65305a50a587c5ba
       with:
         against: https://github.com/prometheus/prometheus.git#branch=main,ref=HEAD~1,subdir=prompb
         input: prompb
