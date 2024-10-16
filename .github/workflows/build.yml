@@ -303,7 +303,7 @@ jobs:
       shell: bash
     - continue-on-error: true
       name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ steps.artifact.outputs.filename }}
         path: ./build/distributions/content/*/*
@@ -848,7 +848,7 @@ jobs:
     - continue-on-error: true
       if: ${{ failure() }}
       name: Collect Tests Result
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: tests-result
         path: ${{ github.workspace }}/build/reports/tests
@@ -1127,7 +1127,7 @@ jobs:
     - continue-on-error: true
       if: ${{ always() }}
       name: Collect Plugin Verifier Result
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: pluginVerifier-result
         path: ${{ github.workspace }}/build/reports/pluginVerifier
