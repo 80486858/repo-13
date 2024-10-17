@@ -250,7 +250,7 @@ jobs:
         fetch-depth: 0
     - continue-on-error: true
       name: Run auto-doc
-      uses: tj-actions/auto-doc@v1.2.14
+      uses: tj-actions/auto-doc@v3.5.0
     - continue-on-error: true
       name: Run test
       uses: tj-actions/remark@v3
