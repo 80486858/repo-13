@@ -250,7 +250,7 @@ jobs:
         fetch-depth: 0
     - continue-on-error: true
       name: Run test
-      uses: tj-actions/remark@v2.3
+      uses: tj-actions/remark@v3
     - continue-on-error: true
       id: verify_changed_files
       name: Verify Changed files
