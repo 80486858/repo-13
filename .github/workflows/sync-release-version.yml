@@ -264,7 +264,7 @@ jobs:
         output: HISTORY.md
     - continue-on-error: true
       name: Create Pull Request
-      uses: peter-evans/create-pull-request@v4.0.3
+      uses: peter-evans/create-pull-request@v7.0.5
       with:
         base: main
         body: View [CHANGES](https://github.com/${{ github.repository }}/compare/${{
