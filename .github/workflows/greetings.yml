@@ -245,7 +245,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/first-interaction@v1.1.0
+      uses: actions/first-interaction@v1.3.0
       with:
         issue-message: Thanks for reporting this issue, don't forget to star this
           project to help us reach a wider audience.
