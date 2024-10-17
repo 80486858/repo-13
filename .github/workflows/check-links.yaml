@@ -250,7 +250,7 @@ jobs:
       with:
         fetch-depth: 0
     - continue-on-error: true
-      uses: gaurav-nelson/github-action-markdown-link-check@1.0.13
+      uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
       with:
         base-branch: main
         check-modified-files-only: 'yes'
