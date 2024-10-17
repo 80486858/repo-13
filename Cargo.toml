@@ -15,7 +15,7 @@ rocket_contrib = {version = "0.4.6", features = ["handlebars_templates", "tera_t
 itertools = "0.9.0"
 
 [dev-dependencies]
-criterion = "0.3"
+criterion = "0.5"
 
 [[bench]]
 name = "bench"
