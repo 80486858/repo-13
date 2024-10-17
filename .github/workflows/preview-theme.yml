@@ -254,7 +254,7 @@ jobs:
         cache: npm
         node-version: ${{ matrix.node-version }}
     - continue-on-error: true
-      uses: bahmutov/npm-install@2509f13e8485d88340a789a3f7ca11aaac47c9fc
+      uses: bahmutov/npm-install@dc9579d3dfb9c0e7a1f56c194eefcb8e2c9f0da5
       with:
         useLockFile: false
     - continue-on-error: true
