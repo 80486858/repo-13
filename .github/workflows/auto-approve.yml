@@ -254,7 +254,7 @@ jobs:
         \ ||\n  github.actor == 'dependabot-preview[bot]' ||\n  github.actor == 'dependabot-preview'\
         \ ||\n  github.actor == 'renovate[bot]' ||\n  github.actor == 'renovate' ||\n\
         \  github.actor == 'github-actions[bot]'\n)\n"
-      uses: hmarr/auto-approve-action@v2
+      uses: hmarr/auto-approve-action@v4
       with:
         github-token: ${{ secrets.PAT_TOKEN }}
     - name: after
