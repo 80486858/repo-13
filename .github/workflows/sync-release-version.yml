@@ -251,7 +251,7 @@ jobs:
     - continue-on-error: true
       id: sync-release-version
       name: Sync release version.
-      uses: tj-actions/sync-release-version@v11
+      uses: tj-actions/sync-release-version@v13
       with:
         paths: 'README.md
 
