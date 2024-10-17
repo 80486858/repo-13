@@ -245,7 +245,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: toshimaru/auto-author-assign@v1.4.0
+      uses: toshimaru/auto-author-assign@v2.1.1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: after
