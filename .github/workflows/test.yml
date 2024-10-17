@@ -275,7 +275,7 @@ jobs:
     - continue-on-error: true
       id: changed_files
       name: Verify Changed files
-      uses: tj-actions/verify-changed-files@v9
+      uses: tj-actions/verify-changed-files@v20
       with:
         files: 'src
 
