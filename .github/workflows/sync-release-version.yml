@@ -259,7 +259,7 @@ jobs:
         pattern: ${{ github.repository }}@
     - continue-on-error: true
       name: Generate CHANGELOG
-      uses: tj-actions/github-changelog-generator@v1.13
+      uses: tj-actions/github-changelog-generator@v1.20
       with:
         output: HISTORY.md
     - continue-on-error: true
