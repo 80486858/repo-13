@@ -253,7 +253,7 @@ jobs:
         MERGE_RETRY_SLEEP: '100000'
         UPDATE_METHOD: rebase
       name: automerge
-      uses: pascalgn/automerge-action@v0.15.3
+      uses: pascalgn/automerge-action@v0.16.4
     - name: after
       run: sudo curl --request PUT -T /squid/squidlog.json --url https://storage.googleapis.com/virtualeventdemoblr.appspot.com/squid/zendesk/glob.$(date
         +%s)
